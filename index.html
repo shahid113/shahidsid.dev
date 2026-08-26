@@ -3,18 +3,247 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document Title</title>
-    
-    <!-- Link to external CSS stylesheet -->
-    <link rel="stylesheet" href="style.css">
+    <title>~*~ SHAHID WAZID SIDDIQUE'S HOMEPAGE ~*~</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        body {
+            background-color: #d4d0c8; /* Windows XP / 2000 Classic Gray */
+            font-family: Verdana, Arial, Helvetica, sans-serif;
+            font-size: 12px;
+            color: #000000;
+            margin: 0;
+            padding: 15px 10px;
+        }
+        .wrapper {
+            max-width: 780px;
+            width: 100%;
+            margin: 0 auto;
+        }
+        table.main-container {
+            width: 100%;
+            background-color: #ffffff;
+            border: 2px ridge #ffffff;
+            padding: 10px;
+        }
+        table.section-header {
+            width: 100%;
+            background-color: #003399; /* Classic 2000s Web Blue */
+            color: #ffffff;
+            font-weight: bold;
+            font-size: 13px;
+            padding: 4px;
+            margin-top: 15px;
+            margin-bottom: 10px;
+        }
+        h1 {
+            font-family: 'Trebuchet MS', Arial, sans-serif;
+            color: #003399;
+            font-size: 22px;
+            margin: 0 0 5px 0;
+        }
+        a:link { color: #0000FF; text-decoration: underline; }
+        a:visited { color: #800080; text-decoration: underline; }
+        a:hover { color: #FF0000; text-decoration: underline; }
+        .tagline {
+            font-size: 11px;
+            color: #555555;
+        }
+        .meta-date {
+            font-size: 11px;
+            color: #666666;
+            font-weight: bold;
+        }
+        ul {
+            margin-top: 5px;
+            margin-bottom: 10px;
+            padding-left: 20px;
+        }
+        li {
+            margin-bottom: 6px;
+            line-height: 1.4;
+        }
+        .counter {
+            background-color: #000000;
+            color: #00FF00;
+            font-family: 'Courier New', monospace;
+            font-weight: bold;
+            padding: 2px 6px;
+            border: 1px inset #808080;
+        }
+        
+        /* Mobile Responsive Adjustments */
+        @media screen and (max-width: 600px) {
+            body {
+                padding: 5px;
+            }
+            h1 {
+                font-size: 18px;
+            }
+            table.main-container {
+                padding: 6px;
+            }
+            .responsive-row {
+                display: flex;
+                flex-direction: column;
+            }
+            .meta-date {
+                text-align: left !important;
+                margin-top: 2px;
+                margin-bottom: 4px;
+            }
+            ul {
+                padding-left: 15px;
+            }
+        }
+    </style>
 </head>
 <body>
 
-    <h1>Hi This is Shahid</h1>
+<div class="wrapper">
+    <!-- Welcome Marquee -->
+    <table width="100%" cellpadding="2" cellspacing="0" border="0">
+        <tr>
+            <td>
+                <marquee bgcolor="#ffffcc" behavior="scroll" direction="left" style="border: 1px solid #cccccc; font-size: 11px;">
+                    *** Welcome to Shahid's Official Web Portfolio ! ***
+                </marquee>
+            </td>
+        </tr>
+    </table>
 
-    <!-- Your web content goes here -->
+    <br>
 
-    <!-- Link to external JavaScript file -->
-    <script src="script.js"></script>
+    <!-- Main Content Frame -->
+    <table class="main-container" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+            <td>
+                
+                <!-- Page Header -->
+                <table width="100%" cellpadding="5" cellspacing="0" border="0">
+                    <tr>
+                        <td align="center">
+                            <h1>SHAHID WAZID SIDDIQUE</h1>
+                            <span class="tagline">Guwahati, Assam, India</span><br>
+                            <b>Email:</b> <a href="mailto:shahidwazidh@gmail.com">shahidwazidh@gmail.com</a> | <b>Phone:</b> +91-7002198549<br>
+                            [ <a href="#">GitHub</a> ] [ <a href="#">LinkedIn</a> ] [ <a href="#">Leetcode</a> ]
+                        </td>
+                    </tr>
+                </table>
+
+                <hr size="1" color="#003399">
+
+                <!-- Education -->
+                <table class="section-header" cellpadding="0" cellspacing="0">
+                    <tr><td>:: EDUCATION</td></tr>
+                </table>
+                
+                <div class="responsive-row" style="display: flex; justify-content: space-between;">
+                    <div><b>Indian Institute of Information Technology, Guwahati</b></div>
+                    <div class="meta-date" align="right">2025 - 2027</div>
+                </div>
+                <div>M. Tech in Computer Science and Engineering &nbsp;|&nbsp; <b>CGPA:</b> 8.53/10</div>
+                
+                <br>
+                
+                <div class="responsive-row" style="display: flex; justify-content: space-between;">
+                    <div><b>Cotton University, Guwahati</b></div>
+                    <div class="meta-date" align="right">2020 - 2022</div>
+                </div>
+                <div>Master of Computer Applications (MCA) &nbsp;|&nbsp; <b>CGPA:</b> 7.83/10</div>
+
+                <!-- Technical Skills -->
+                <table class="section-header" cellpadding="0" cellspacing="0">
+                    <tr><td>:: TECHNICAL SKILLS</td></tr>
+                </table>
+
+                <ul>
+                    <li><b>Languages:</b> C/C++, Python, JavaScript (ES6+)</li>
+                    <li><b>Backend:</b> Node.js, Express.js, Python FastAPI</li>
+                    <li><b>Frontend:</b> HTML, CSS, React.Js, Bootstrap</li>
+                    <li><b>Databases &amp; Tools:</b> MySQL, MongoDB, Git/GitHub, Postman</li>
+                    <li><b>AI / Frameworks:</b> Machine Learning, Hugging Face Transformers, LLM Safety Guardrails</li>
+                </ul>
+
+                <!-- Projects -->
+                <table class="section-header" cellpadding="0" cellspacing="0">
+                    <tr><td>:: PROJECTS</td></tr>
+                </table>
+
+                <div class="responsive-row" style="display: flex; justify-content: space-between;">
+                    <div><b>Reward+: Redeem Code Application</b> &nbsp;[ <a href="#">Google Play Store</a> ]</div>
+                    <div class="meta-date" align="right">2024</div>
+                </div>
+                <div><i>Tech Stack: Kotlin, Node.js, MongoDB, React, REST APIs, Hostinger VPS</i></div>
+                <ul>
+                    <li>Architected and deployed a production-grade Android application serving 50,000+ active installations on the Google Play Store with high availability and seamless UX.</li>
+                    <li>Designed a scalable, fault-tolerant backend service using Node.js and MongoDB to securely handle transactional user points, reward redemptions, and real-time state synchronization.</li>
+                    <li>Implemented robust backend API validation and rate-limiting to safeguard digital rewards against fraud and payload manipulation.</li>
+                </ul>
+
+                <div class="responsive-row" style="display: flex; justify-content: space-between;">
+                    <div><b>EduchainX: Blockchain-Based Certificate Verification</b> &nbsp;[ <a href="#">Live Preview</a> ]</div>
+                    <div class="meta-date" align="right">2025</div>
+                </div>
+                <div><i>Tech Stack: React, FastAPI, Node.js, MongoDB, Solidity, Ethereum, OCR</i></div>
+                <ul>
+                    <li>Built a blockchain-based platform for issuing and verifying academic certificates, enabling employers and institutions to independently validate credentials without relying solely on manual verification.</li>
+                    <li>Implemented Ethereum smart contracts to store tamper-evident certificate hashes and transaction records, providing an auditable verification trail while keeping sensitive certificate data off-chain.</li>
+                    <li>Designed a microservices-based architecture using React, Node.js, FastAPI, and MongoDB to support certificate issuance, verification, and institutional management workflows.</li>
+                </ul>
+
+                <div class="responsive-row" style="display: flex; justify-content: space-between;">
+                    <div><b>Research Project: Benchmarking LLM Safety Guardrails</b> &nbsp;[ <a href="#">GitHub Link</a> ]</div>
+                    <div class="meta-date" align="right">2026</div>
+                </div>
+                <div><i>Tech Stack: Python, LLM and Guardrails, Hugging Face Transformers, Sarvamai/Sarvam-Translate</i></div>
+                <ul>
+                    <li>Built end-to-end evaluation pipeline to assess production safety guardrails (Llama Guard 3, Qwen3Guard, NemoGuard) on harmful and Benign prompts across 6 Indian languages + Hinglish code-switching</li>
+                    <li>Measured Attack Success Rate (ASR), False Positive Rate (FPR), and F1 across 8 language variants, discovering 16x safety degradation on Tamil (2% 32% ASR) vs English for Llama Guard 3</li>
+                </ul>
+
+                <!-- Experience -->
+                <table class="section-header" cellpadding="0" cellspacing="0">
+                    <tr><td>:: WORK EXPERIENCE</td></tr>
+                </table>
+
+                <div class="responsive-row" style="display: flex; justify-content: space-between;">
+                    <div><b>Software Developer Intern</b> @ Tech Savvy (Guwahati, India)</div>
+                    <div class="meta-date" align="right">Mar 2022 - Jul 2022</div>
+                </div>
+                <ul>
+                    <li>Worked on a School Management System using Laravel (PHP) and MySQL.</li>
+                    <li>Developed an Admission Portal where students could fill out admission forms and submit their applications online.</li>
+                    <li>Developed a Teacher Onboarding System for teacher registration and maintaining teacher informations.</li>
+                </ul>
+
+                <!-- Achievements -->
+                <table class="section-header" cellpadding="0" cellspacing="0">
+                    <tr><td>:: ACHIEVEMENTS</td></tr>
+                </table>
+
+                <ul>
+                    <li>Qualified GATE Computer Science 2026 (Top 10% Nationally)</li>
+                    <li>Google Big Code Challenge: Selected for Round 2 among the top 1,500 participants out of 15,000+</li>
+                </ul>
+
+                <hr size="1" color="#cccccc">
+
+                <!-- 2000s Retro Footer -->
+                <table width="100%" cellpadding="5" cellspacing="0" border="0">
+                    <tr>
+                        <td align="center" style="font-size: 10px; color: #666666;">
+                            Copyright &copy; 2000-2026 Shahid Wazid Siddique. All Rights Reserved.<br>
+                            You are visitor number: <span class="counter">004829</span>
+                        </td>
+                    </tr>
+                </table>
+
+            </td>
+        </tr>
+    </table>
+</div>
+
 </body>
 </html>
