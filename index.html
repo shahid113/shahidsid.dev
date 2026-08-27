@@ -3,247 +3,151 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>~*~ SHAHID WAZID SIDDIQUE'S HOMEPAGE ~*~</title>
+    <title>Shahid - Portfolio</title>
     <style>
-        * {
-            box-sizing: border-box;
-        }
         body {
-            background-color: #d4d0c8; /* Windows XP / 2000 Classic Gray */
-            font-family: Verdana, Arial, Helvetica, sans-serif;
-            font-size: 12px;
-            color: #000000;
-            margin: 0;
-            padding: 15px 10px;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: #222;
+            max-width: 650px;
+            margin: 60px auto;
+            padding: 0 20px;
+            background-color: #fafafa;
         }
-        .wrapper {
-            max-width: 780px;
-            width: 100%;
-            margin: 0 auto;
-        }
-        table.main-container {
-            width: 100%;
-            background-color: #ffffff;
-            border: 2px ridge #ffffff;
-            padding: 10px;
-        }
-        table.section-header {
-            width: 100%;
-            background-color: #003399; /* Classic 2000s Web Blue */
-            color: #ffffff;
-            font-weight: bold;
-            font-size: 13px;
-            padding: 4px;
-            margin-top: 15px;
-            margin-bottom: 10px;
+        header {
+            margin-bottom: 40px;
         }
         h1 {
-            font-family: 'Trebuchet MS', Arial, sans-serif;
-            color: #003399;
-            font-size: 22px;
-            margin: 0 0 5px 0;
+            font-size: 1.8rem;
+            margin-bottom: 5px;
+            font-weight: 600;
         }
-        a:link { color: #0000FF; text-decoration: underline; }
-        a:visited { color: #800080; text-decoration: underline; }
-        a:hover { color: #FF0000; text-decoration: underline; }
+        p {
+            margin-bottom: 15px;
+            color: #555;
+        }
         .tagline {
-            font-size: 11px;
-            color: #555555;
+            font-size: 1.05rem;
+            color: #444;
+            margin-bottom: 15px;
         }
-        .meta-date {
-            font-size: 11px;
-            color: #666666;
-            font-weight: bold;
+        .actions {
+            margin-top: 15px;
+        }
+        .btn-resume {
+            display: inline-block;
+            background-color: #111;
+            color: #fff;
+            padding: 8px 16px;
+            border-radius: 4px;
+            text-decoration: none;
+            font-size: 0.9rem;
+            font-weight: 500;
+        }
+        .btn-resume:hover {
+            background-color: #333;
+            text-decoration: none;
+        }
+        section {
+            margin-bottom: 40px;
+        }
+        h2 {
+            font-size: 1.2rem;
+            border-bottom: 1px solid #eaeaea;
+            padding-bottom: 8px;
+            margin-bottom: 20px;
+            font-weight: 500;
+            color: #111;
+        }
+        .project-item, .exp-item {
+            margin-bottom: 25px;
+        }
+        .project-title, .exp-title {
+            font-weight: 600;
+            color: #111;
+            text-decoration: none;
+        }
+        .project-title:hover {
+            text-decoration: underline;
+        }
+        .tech-stack {
+            font-size: 0.85rem;
+            color: #777;
+            margin-bottom: 8px;
         }
         ul {
-            margin-top: 5px;
-            margin-bottom: 10px;
             padding-left: 20px;
+            color: #555;
+            margin-top: 5px;
         }
         li {
-            margin-bottom: 6px;
-            line-height: 1.4;
+            margin-bottom: 4px;
         }
-        .counter {
-            background-color: #000000;
-            color: #00FF00;
-            font-family: 'Courier New', monospace;
-            font-weight: bold;
-            padding: 2px 6px;
-            border: 1px inset #808080;
+        footer {
+            margin-top: 60px;
+            font-size: 0.9rem;
+            color: #888;
+            border-top: 1px solid #eaeaea;
+            padding-top: 20px;
         }
-        
-        /* Mobile Responsive Adjustments */
-        @media screen and (max-width: 600px) {
-            body {
-                padding: 5px;
-            }
-            h1 {
-                font-size: 18px;
-            }
-            table.main-container {
-                padding: 6px;
-            }
-            .responsive-row {
-                display: flex;
-                flex-direction: column;
-            }
-            .meta-date {
-                text-align: left !important;
-                margin-top: 2px;
-                margin-bottom: 4px;
-            }
-            ul {
-                padding-left: 15px;
-            }
+        a {
+            color: #0066cc;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
         }
     </style>
 </head>
 <body>
 
-<div class="wrapper">
-    <!-- Welcome Marquee -->
-    <table width="100%" cellpadding="2" cellspacing="0" border="0">
-        <tr>
-            <td>
-                <marquee bgcolor="#ffffcc" behavior="scroll" direction="left" style="border: 1px solid #cccccc; font-size: 11px;">
-                    *** Welcome to Shahid's Official Web Portfolio ! ***
-                </marquee>
-            </td>
-        </tr>
-    </table>
+    <header>
+        <h1>Shahid Siddique</h1>
+        <p class="tagline">M.Tech Student in Computer Science & Engineering, IIIT Guwahati</p>
+        <p>I build robust backend microservices, scalable mobile/web applications, and conduct AI safety research. Focused on scalability, system architecture, and security.</p>
+        <div class="actions">
+            <a href="https://drive.google.com/file/d/164wmTt1NfrK8w7pp3WtG-bB7CsQVzREs/view?usp=sharing" class="btn-resume" target="_blank">Download Resume (PDF)</a>
+        </div>
+    </header>
 
-    <br>
+    <section>
+        <h2>Technical Skills</h2>
+        <p><strong>Languages:</strong> C/C++, Python, JavaScript (ES6+)<br>
+        <strong>Backend & DB:</strong> Node.js, Express.js, FastAPI, MySQL, MongoDB<br>
+        <strong>Frontend & Tools:</strong> React.js, HTML, CSS, Git/GitHub, Postman<br>
+        <strong>AI / ML:</strong> Machine Learning, Hugging Face Transformers, LLM Safety Guardrails</p>
+    </section>
 
-    <!-- Main Content Frame -->
-    <table class="main-container" cellpadding="0" cellspacing="0" border="0">
-        <tr>
-            <td>
-                
-                <!-- Page Header -->
-                <table width="100%" cellpadding="5" cellspacing="0" border="0">
-                    <tr>
-                        <td align="center">
-                            <h1>SHAHID WAZID SIDDIQUE</h1>
-                            <span class="tagline">Guwahati, Assam, India</span><br>
-                            <b>Email:</b> <a href="mailto:shahidwazidh@gmail.com">shahidwazidh@gmail.com</a> | <b>Phone:</b> +91-7002198549<br>
-                            [ <a href="#">GitHub</a> ] [ <a href="#">LinkedIn</a> ] [ <a href="#">Leetcode</a> ]
-                        </td>
-                    </tr>
-                </table>
+    <section>
+        <h2> Projects</h2>
+        
+        <div class="project-item">
+            <a href="https://play.google.com/store/apps/details?id=com.nexumbyte.rewardplus" target="_blank" class="project-title">Reward+: Redeem Code Application</a>
+            <div class="tech-stack">Kotlin, Node.js, MongoDB, React, REST APIs, Hostinger VPS</div>
+            <p>Architected and deployed a production-grade Android application serving 50,000+ active users. Built a fault-tolerant Node.js & MongoDB backend handling transactional points, redemptions, and real-time state sync with anti-fraud rate limiting.</p>
+        </div>
 
-                <hr size="1" color="#003399">
+        <div class="project-item">
+            <a href="https://educhainx.online" target="_blank" class="project-title">EduchainX: Blockchain-Based Certificate Verification</a>
+            <div class="tech-stack">React, FastAPI, Node.js, MongoDB, Solidity, Ethereum, OCR</div>
+            <p>Developed a microservices platform with Ethereum smart contracts to issue tamper-evident academic certificate hashes for independent institutional verification.</p>
+        </div>
 
-                <!-- Education -->
-                <table class="section-header" cellpadding="0" cellspacing="0">
-                    <tr><td>:: EDUCATION</td></tr>
-                </table>
-                
-                <div class="responsive-row" style="display: flex; justify-content: space-between;">
-                    <div><b>Indian Institute of Information Technology, Guwahati</b></div>
-                    <div class="meta-date" align="right">2025 - 2027</div>
-                </div>
-                <div>M. Tech in Computer Science and Engineering &nbsp;|&nbsp; <b>CGPA:</b> 8.53/10</div>
-                
-                <br>
-                
-                <div class="responsive-row" style="display: flex; justify-content: space-between;">
-                    <div><b>Cotton University, Guwahati</b></div>
-                    <div class="meta-date" align="right">2020 - 2022</div>
-                </div>
-                <div>Master of Computer Applications (MCA) &nbsp;|&nbsp; <b>CGPA:</b> 7.83/10</div>
+        <div class="project-item">
+            <a href="https://github.com" target="_blank" class="project-title">LLM Safety Guardrails Benchmarking</a>
+            <div class="tech-stack">Python, LLM Guardrails, Hugging Face Transformers, Sarvam-Translate</div>
+            <p>Built an end-to-end pipeline evaluating safety models (Llama Guard 3, Qwen3Guard) across 6 Indian languages and Hinglish, measuring Attack Success Rate (ASR) and F1 scores.</p>
+        </div>
+    </section>
 
-                <!-- Technical Skills -->
-                <table class="section-header" cellpadding="0" cellspacing="0">
-                    <tr><td>:: TECHNICAL SKILLS</td></tr>
-                </table>
+    <section>
+        <h2>Get in Touch</h2>
+        <p>Feel free to reach out via <a href="mailto:shahidwazidh@gmail.com">email</a> or connect on <a href="https://github.com/shahid113" target="_blank">GitHub</a>, <a href="https://www.linkedin.com/in/shahid-siddique-038a92206/" target="_blank">LinkedIn</a>, or <a href="https://leetcode.com/u/shahid_code/" target="_blank">LeetCode</a>.</p>
+    </section>
 
-                <ul>
-                    <li><b>Languages:</b> C/C++, Python, JavaScript (ES6+)</li>
-                    <li><b>Backend:</b> Node.js, Express.js, Python FastAPI</li>
-                    <li><b>Frontend:</b> HTML, CSS, React.Js, Bootstrap</li>
-                    <li><b>Databases &amp; Tools:</b> MySQL, MongoDB, Git/GitHub, Postman</li>
-                    <li><b>AI / Frameworks:</b> Machine Learning, Hugging Face Transformers, LLM Safety Guardrails</li>
-                </ul>
-
-                <!-- Projects -->
-                <table class="section-header" cellpadding="0" cellspacing="0">
-                    <tr><td>:: PROJECTS</td></tr>
-                </table>
-
-                <div class="responsive-row" style="display: flex; justify-content: space-between;">
-                    <div><b>Reward+: Redeem Code Application</b> &nbsp;[ <a href="#">Google Play Store</a> ]</div>
-                    <div class="meta-date" align="right">2024</div>
-                </div>
-                <div><i>Tech Stack: Kotlin, Node.js, MongoDB, React, REST APIs, Hostinger VPS</i></div>
-                <ul>
-                    <li>Architected and deployed a production-grade Android application serving 50,000+ active installations on the Google Play Store with high availability and seamless UX.</li>
-                    <li>Designed a scalable, fault-tolerant backend service using Node.js and MongoDB to securely handle transactional user points, reward redemptions, and real-time state synchronization.</li>
-                    <li>Implemented robust backend API validation and rate-limiting to safeguard digital rewards against fraud and payload manipulation.</li>
-                </ul>
-
-                <div class="responsive-row" style="display: flex; justify-content: space-between;">
-                    <div><b>EduchainX: Blockchain-Based Certificate Verification</b> &nbsp;[ <a href="#">Live Preview</a> ]</div>
-                    <div class="meta-date" align="right">2025</div>
-                </div>
-                <div><i>Tech Stack: React, FastAPI, Node.js, MongoDB, Solidity, Ethereum, OCR</i></div>
-                <ul>
-                    <li>Built a blockchain-based platform for issuing and verifying academic certificates, enabling employers and institutions to independently validate credentials without relying solely on manual verification.</li>
-                    <li>Implemented Ethereum smart contracts to store tamper-evident certificate hashes and transaction records, providing an auditable verification trail while keeping sensitive certificate data off-chain.</li>
-                    <li>Designed a microservices-based architecture using React, Node.js, FastAPI, and MongoDB to support certificate issuance, verification, and institutional management workflows.</li>
-                </ul>
-
-                <div class="responsive-row" style="display: flex; justify-content: space-between;">
-                    <div><b>Research Project: Benchmarking LLM Safety Guardrails</b> &nbsp;[ <a href="#">GitHub Link</a> ]</div>
-                    <div class="meta-date" align="right">2026</div>
-                </div>
-                <div><i>Tech Stack: Python, LLM and Guardrails, Hugging Face Transformers, Sarvamai/Sarvam-Translate</i></div>
-                <ul>
-                    <li>Built end-to-end evaluation pipeline to assess production safety guardrails (Llama Guard 3, Qwen3Guard, NemoGuard) on harmful and Benign prompts across 6 Indian languages + Hinglish code-switching</li>
-                    <li>Measured Attack Success Rate (ASR), False Positive Rate (FPR), and F1 across 8 language variants, discovering 16x safety degradation on Tamil (2% 32% ASR) vs English for Llama Guard 3</li>
-                </ul>
-
-                <!-- Experience -->
-                <table class="section-header" cellpadding="0" cellspacing="0">
-                    <tr><td>:: WORK EXPERIENCE</td></tr>
-                </table>
-
-                <div class="responsive-row" style="display: flex; justify-content: space-between;">
-                    <div><b>Software Developer Intern</b> @ Tech Savvy (Guwahati, India)</div>
-                    <div class="meta-date" align="right">Mar 2022 - Jul 2022</div>
-                </div>
-                <ul>
-                    <li>Worked on a School Management System using Laravel (PHP) and MySQL.</li>
-                    <li>Developed an Admission Portal where students could fill out admission forms and submit their applications online.</li>
-                    <li>Developed a Teacher Onboarding System for teacher registration and maintaining teacher informations.</li>
-                </ul>
-
-                <!-- Achievements -->
-                <table class="section-header" cellpadding="0" cellspacing="0">
-                    <tr><td>:: ACHIEVEMENTS</td></tr>
-                </table>
-
-                <ul>
-                    <li>Qualified GATE Computer Science 2026 (Top 10% Nationally)</li>
-                    <li>Google Big Code Challenge: Selected for Round 2 among the top 1,500 participants out of 15,000+</li>
-                </ul>
-
-                <hr size="1" color="#cccccc">
-
-                <!-- 2000s Retro Footer -->
-                <table width="100%" cellpadding="5" cellspacing="0" border="0">
-                    <tr>
-                        <td align="center" style="font-size: 10px; color: #666666;">
-                            Copyright &copy; 2000-2026 Shahid Wazid Siddique. All Rights Reserved.<br>
-                            You are visitor number: <span class="counter">004829</span>
-                        </td>
-                    </tr>
-                </table>
-
-            </td>
-        </tr>
-    </table>
-</div>
+    <footer>
+        <p>&copy; 2026 Shahid . All rights reserved.</p>
+    </footer>
 
 </body>
 </html>
